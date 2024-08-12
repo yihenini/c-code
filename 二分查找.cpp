@@ -6,7 +6,7 @@
 //	scanf("%c", &n);
 //	if (n == 'n')
 //	{
-//		printf("ÄãÂèËÀÁË");
+//		printf("ä½ å¦ˆæ­»äº†");
 //		return 0;
 //	}
 //
@@ -14,24 +14,24 @@
 //{
 //	char password[20] = { 0 };
 //	int ch;
-//	printf("ÇëÊäÈëÃÜÂë");
+//	printf("è¯·è¾“å…¥å¯†ç ");
 //	scanf("%s", password);
-//	printf("ÇëÈ·ÈÏÃÜÂë");
+//	printf("è¯·ç¡®è®¤å¯†ç ");
 //	while ((ch=getchar()) != '\n')
 //	{
 //		if (ch == ' ')
 //		{
-//			printf("ÃÜÂëÖÐ²»ÄÜÓÐ¿Õ¸ñ");
+//			printf("å¯†ç ä¸­ä¸èƒ½æœ‰ç©ºæ ¼");
 //		}
 //		;
 //	}
 //	if (getchar() == 'Y')
 //	{
-//		printf("È·ÈÏ³É¹¦");
+//		printf("ç¡®è®¤æˆåŠŸ");
 //	}
 //	else
 //	{
-//		printf("ÄãÍæÄáÂêÄØ");
+//		printf("ä½ çŽ©å°¼çŽ›å‘¢");
 //	}
 //	return 0;
 //}
@@ -89,13 +89,13 @@ int main()
 		}
 		else
 		{
-			printf("founded,ÏÂ±êÊÇ£º%d",mid);
+			printf("founded,ä¸‹æ ‡æ˜¯ï¼š%d",mid);
 			break;
 		}
 		if (left > right)
 		{
 
-			printf("²¢Ã»ÓÐ");
+			printf("å¹¶æ²¡æœ‰");
 		}
 	}
 	return 0;
